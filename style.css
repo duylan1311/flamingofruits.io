@@ -359,6 +359,9 @@ footer li a{
   footer .flex img{ 
         width: 100%;
   }
+   .share {
+    width:100%;
+  }
 } 
 .share {
   text-align: right;
