@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 body {
-    color: var(--yellow);
     margin: 0;
     font-family: 'Karla', sans-serif;
 }
@@ -46,7 +45,6 @@ h2::before{
     content: "";
     height: 1px;
     width:150px;
-    background-color: var(--Dark-Violet);
     position: absolute;
     top: 0;
     left: 0;
@@ -67,16 +65,14 @@ h2::before{
 }
  a:hover{
     font-weight: 800;
-    color: var(--Very-Dark-Violet);
     transition: 0.3s;
 }
 .btn-reverse{
-    color: var(--Dark-Violet);
-    border-color: var(--Dark-Violet);
+   
 }
 
 nav .bg-button-nav:hover{
-    background-color: var(--Very-Dark-Violet);
+   
     color: white;
     transition: .3s;
 }
@@ -134,7 +130,6 @@ nav .icon-hamburger{
 /* header styling  */
 
 header {
-    background: var(--Dark-Violet);
     color: white;
     padding: 50px 0;
     position: relative;
@@ -171,7 +166,6 @@ header::before{
 
 .bg-button-white:hover{
     background: white;
-    color: var(--Very-Dark-Violet);
     transition: 0.3s;
 }
 .hero-image{
@@ -182,7 +176,7 @@ header::before{
 /* section styling */
 
 .bg-violet {
-    background-color: var(--Dark-Violet);
+    background-color:"";
     color: #ffffff;
     padding:70px;
     position: relative;
@@ -289,7 +283,7 @@ footer li a{
         display:none;
     }
     nav ul.show{
-        background-color: var(--Very-Dark-Violet);
+        background-color: "";
         display: flex;
         flex-direction: column;
         position: fixed;
@@ -362,6 +356,9 @@ footer li a{
     footer .flex div {
         width:100%;
     }
+  footer .flex img{ 
+        width: 100%;
+  }
 } 
 .share {
   text-align: right;
